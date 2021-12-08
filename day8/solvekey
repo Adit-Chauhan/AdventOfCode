@@ -1,0 +1,19 @@
+& = common in
+! = not
+5s = that lit 5 segments
+6s = that lit 6 segments
+
+(1,4,7,8,)(a,g,d,b,e,c,f) (1 -> cf)
+7 - 1 => a
+(& (&5s &6s)) - a = g
+&5s - a - g = d
+4 - 1 - d = b
+!&5s - 1 - b = e
+!&6s - d - e = c
+1 - c = f
+
+&5s -> adg
+!&5s -> becf
+&6s -> agbf
+!&6s -> dce
+
